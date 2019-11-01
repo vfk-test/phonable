@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'Phonable_Example' do
   pod 'Phonable', :path => '../'
-
+  
   target 'Phonable_Tests' do
     inherit! :search_paths
 

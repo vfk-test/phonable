@@ -28,11 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CC571B217A788BD6C422559 /* Phonable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Phonable.podspec; path = ../Phonable.podspec; sourceTree = "<group>"; };
+		0CC571B217A788BD6C422559 /* Phonable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Phonable.podspec; path = ../Phonable.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0CE4CE4A5A964D45B34C2898 /* Pods-Phonable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phonable_Tests.release.xcconfig"; path = "Target Support Files/Pods-Phonable_Tests/Pods-Phonable_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		211D9F667C3D0327E25BA0F7 /* Pods_Phonable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phonable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E74A3506E63C32AD362C39 /* Pods-Phonable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phonable_Example.debug.xcconfig"; path = "Target Support Files/Pods-Phonable_Example/Pods-Phonable_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4CBDFCE26B2AA863DBD80D44 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4CBDFCE26B2AA863DBD80D44 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Phonable_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phonable_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		8CA9D4EDE9CFB280F995F375 /* Pods_Phonable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phonable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBC706DC1E59A0DB1B5F450C /* Pods-Phonable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phonable_Example.release.xcconfig"; path = "Target Support Files/Pods-Phonable_Example/Pods-Phonable_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EFF6DEAED37FD0373EC3B0D5 /* Pods-Phonable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phonable_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Phonable_Tests/Pods-Phonable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F77B5A8D6B0ACD85323580AD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F77B5A8D6B0ACD85323580AD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				EFF6DEAED37FD0373EC3B0D5 /* Pods-Phonable_Tests.debug.xcconfig */,
 				0CE4CE4A5A964D45B34C2898 /* Pods-Phonable_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

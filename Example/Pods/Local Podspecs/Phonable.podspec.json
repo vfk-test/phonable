@@ -1,0 +1,22 @@
+{
+  "name": "Phonable",
+  "version": "0.1.0",
+  "summary": "A short description of Phonable.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Can Koç/Phonable",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Can Koç": "can-koc@users.noreply.github.com"
+  },
+  "source": {
+    "git": "https://github.com/Can Koç/Phonable.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Phonable/Classes/**/*"
+}

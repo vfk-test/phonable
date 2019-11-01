@@ -1,0 +1,16 @@
+PODS:
+  - Phonable (0.1.0)
+
+DEPENDENCIES:
+  - Phonable (from `../`)
+
+EXTERNAL SOURCES:
+  Phonable:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Phonable: bc693d69decb02ab7e9f6e9f903478aefe04e6b8
+
+PODFILE CHECKSUM: 4ad8535081b3b95cd6d3de689ece04b974591f3c
+
+COCOAPODS: 1.8.4
